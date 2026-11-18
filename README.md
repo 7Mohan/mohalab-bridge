@@ -44,6 +44,21 @@ These were built for MohaLab Bridge. They are not in Shizuku or Shizuku-Next.
 
 **Eleven languages, chosen first.** English, Somali, Arabic, Hindi, Bangla, Indonesian, Malay, Filipino, Portuguese (Brazil), Vietnamese and Russian. The first screen asks which one, and every screen follows it.
 
+## How it differs from other ADB apps
+
+Compared with Shizuku and Shizuku-Next, the two apps other apps already use for ADB rights. From their public pages, November 2026.
+
+| | MohaLab Bridge | Shizuku | Shizuku-Next |
+|---|:---:|:---:|:---:|
+| Other apps can use ADB or root rights through it (Shizuku API) | ✓ | ✓ | ✓ |
+| Installs next to Shizuku on the same phone | ✓ | – | – (uses Shizuku's package) |
+| Limit what each app may use (shell, packages, settings, network…) | ✓ | – (full access or none) | – (full access or none) |
+| Log of every command each app ran, risky ones marked | ✓ | – | – |
+| Finds apps that need ADB-only permissions and gives them in one tap | ✓ | – | partly (manual batch changes) |
+| Watchdog that restarts the service | ✓ | – | ✓ |
+
+Apps like LADB or other ADB shells give **you** a terminal. They do not let your other apps use those rights, so tuners and optimizers built for Shizuku cannot use them. MohaLab Bridge does both: apps get the rights, and you see and limit what they do.
+
 ## What it keeps from the projects it is built on
 
 - Starting through wireless debugging (with pairing from the notification), USB with a computer, or root.
