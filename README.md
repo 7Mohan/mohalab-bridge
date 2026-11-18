@@ -14,7 +14,9 @@ Apps that need ADB-level access (tuners, debloaters, permission managers, game o
 
 ## Download
 
-The first release is being tested on real phones. It will appear on the [Releases](https://github.com/7Mohan/mohalab-bridge/releases) page; the app announces newer versions itself.
+Get the APK from the [latest release](https://github.com/7Mohan/mohalab-bridge/releases/latest). The app announces newer versions itself.
+
+Only install MohaLab Bridge from this page or the official Telegram channel [t.me/Mohagaminglab](https://t.me/Mohagaminglab). Copies signed by anyone else will not open.
 
 ## What it does
 
